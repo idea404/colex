@@ -1,0 +1,30 @@
+{
+    "name": "escrow",
+    "version": "1.0.0",
+    "description": "simple escrow smart contract example in javascript",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "build": "near-sdk-js build",
+      "test": "ava --timeout=2m"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/idea404/escrow-js.git"
+    },
+    "author": "Dennis",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/idea404/escrow-js/issues"
+    },
+    "homepage": "https://github.com/idea404/escrow-js#readme",
+    "dependencies": {
+      "near-sdk-js": "^0.6.0"
+    },
+    "devDependencies": {
+      "ava": "^4.3.3",
+      "near-workspaces": "^3.2.2",
+      "npm-run-all": "^4.1.5",
+      "ts-morph": "^16.0.0"
+    }
+  }
